@@ -5,10 +5,10 @@
 def sum3(num1, num2, num3):
     return num1 + num2 + num3
 
-print sum3(1,2,3)
+print (sum3(1,2,3))
 #>>> 6
 
-print sum3(93,53,70)
+print (sum3(93,53,70))
 #>>> 216
 
 
@@ -24,8 +24,8 @@ def abbaize(string1, string2):
     return string1 + stringDouble + string1
 
 
-print abbaize('a','b')
+print (abbaize('a','b'))
 #>>> 'abba'
 
-print abbaize('dog','cat')
+print (abbaize('dog','cat'))
 #>>> 'dogcatcatdog'
