@@ -45,11 +45,11 @@ def find_second (search, target):
 
 
 danton = "De l'audace, encore de l'audace, toujours de l'audace"
-print find_second(danton, 'audace')
+print (find_second(danton, 'audace'))
 #>>> 25
 
 twister = "she sells seashells by the seashore"
-print find_second(twister,'she')
+print (find_second(twister,'she'))
 #>>> 13
 
 #############################################
@@ -64,13 +64,13 @@ def bigger (num1, num2):
     else:
         return num2
 
-print bigger(2,7)
+print (bigger(2,7))
 #>>> 7
 
-print bigger(3,2)
+print (bigger(3,2))
 #>>> 3
 
-print bigger(3,3)
+print (bigger(3,3))
 #>>> 3
 
 #############################################
@@ -89,8 +89,8 @@ def is_friend (string1):
     else:
         return False
 
-print is_friend('Diane')
+print (is_friend('Diane'))
 #>>> True
 
-print is_friend('Fred')
+print (is_friend('Fred'))
 #>>> False
